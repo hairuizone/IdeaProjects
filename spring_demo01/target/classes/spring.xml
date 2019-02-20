@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--通过全类名来配置bean    -->
+    <bean id="user" class="cn.demo.spring.User">
+        <constructor-arg name="name" value="Spring"></constructor-arg>
+    </bean>
+
+    <bean id="helloWorld" class="cn.demo.spring.HelloWorld"></bean>
+
+    <!--属性注入-->
+    <bean id="helloWorld2" class="cn.demo.spring.HelloWorld">
+        <property name="name" value="SPRING"/>
+    </bean>
+</beans>

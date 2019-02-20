@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--通过构造方法来配置bean的属性 按照参数顺序来配置属性-->
+    <bean id="car" class="cn.demo.bean.Car">
+        <constructor-arg value="Audi"/>
+        <constructor-arg value="BEIJING"/>
+        <constructor-arg value="300000"/>
+    </bean>
+
+    <!--通过构造方法来配置bean的属性 按照角标index配置属性-->
+    <bean id="car2" class="cn.demo.bean.Car">
+        <constructor-arg value="Baoma" index="0"/>
+        <constructor-arg value="280000" index="2"/>
+        <constructor-arg value="Shanghai" index="1"/>
+    </bean>
+
+    <!--通过构造方法来配置bean的属性 通过name定位属性-->
+    <bean id="car3" class="cn.demo.bean.Car">
+        <constructor-arg value="Benz" name="brand"/>
+        <constructor-arg value="320000" name="price"/>
+        <constructor-arg name="corp">
+            <!--使用value子节点赋值属性-->
+            <value><![CDATA[<Beijing@Cop^>]]></value><!--使用<![CDATA[]]> 标签赋值特殊字符 此处赋值：<Beijing@Cop^>-->
+        </constructor-arg>
+    </bean>
+    <!--当构造函数中的参数类型能够区分构造对象时，可以使用type元素来配置bean属性-->
+</beans>

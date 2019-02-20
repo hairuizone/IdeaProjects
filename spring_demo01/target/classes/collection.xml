@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="person" class="cn.demo.bean.collection.Person">
+        <property name="name" value="Jenny"/>
+        <property name="age" value="27"/>
+        <property name="cars">
+            <!--使用list元素为集合属性赋值-->
+            <list>
+                <!--此处内部bean id与外部bean的id相同无影响-->
+                <bean id="car1" class="cn.demo.bean.collection.Car">
+                    <property name="price" value="180000"/>
+                    <property name="brand" value="Fort"/>
+                    <property name="speed" value="170"/>
+                    <property name="corp" value="Changan"/>
+                </bean>
+                <bean id="car2" class="cn.demo.bean.collection.Car">
+                    <property name="price" value="250000"/>
+                    <property name="brand" value="JieBao"/>
+                    <property name="speed" value="190"/>
+                    <property name="corp" value="Changan"/>
+                </bean>
+            </list>
+        </property>
+        <property name="duty">
+            <!--使用map元素为集合属性赋值-->
+            <map>
+                <entry key="duty1" value="teacher"></entry>
+                <entry key="duty2" value="speaker"/>
+            </map>
+        </property>
+        <property name="country">
+            <!--使用set元素为集合属性赋值-->
+            <set>
+                <value>China</value>
+                <list>
+                    <value>Europ</value>
+                </list>
+                <map>
+                    <entry key="US" value="united states"></entry>
+                </map>
+            </set>
+        </property>
+        <property name="nickname">
+            <!--使用array元素为数组集合属性赋值-->
+            <array>
+                <value>XiaoJ</value>
+                <value>JSir</value>
+                <value>aj</value>
+            </array>
+        </property>
+    </bean>
+
+
+    <bean id="person2" class="cn.demo.bean.collection.Person">
+        <property name="name" value="Jenny"/>
+        <property name="age" value="27"/>
+        <property name="cars">
+            <list>
+                <!--使用ref元素引用外部bean-->
+                <ref bean="car1"></ref>
+                <ref bean="car2"></ref>
+                <ref bean="car3"></ref>
+            </list>
+        </property>
+        <property name="duty">
+            <map>
+                <entry key="duty1" value="Employeer"></entry>
+                <!--使用value-ref标签来对买中的元素进行引用赋值-->
+                <entry key="hisCar" value-ref="car1"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="car1" class="cn.demo.bean.collection.Car">
+        <property name="price" value="180000"/>
+        <property name="brand" value="AAA"/>
+        <property name="speed" value="170"/>
+        <property name="corp" value="Changan"/>
+        <property name="color">
+            <!--使用props为java.util.Properties集合赋值-->
+            <props>
+                <prop key="color1">red</prop>
+                <prop key="color2">write</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="car2" class="cn.demo.bean.collection.Car">
+        <property name="price" value="250000"/>
+        <property name="brand" value="BBB"/>
+        <property name="speed" value="190"/>
+        <property name="corp" value="Changan"/>
+    </bean>
+    <bean id="car3" class="cn.demo.bean.collection.Car">
+        <property name="price" value="180000"/>
+        <property name="brand" value="CCC"/>
+        <property name="speed" value="170"/>
+        <property name="corp" value="Changan"/>
+    </bean>
+
+    <bean id="dataSource" class="cn.demo.bean.collection.DataSource">
+        <property name="properties">
+            <!--properties属性的注入方式-->
+            <props>
+                <prop key="user">root</prop>
+                <prop key="password">123456</prop>
+                <prop key="driverClass">com.mysql.jdbc.Driver</prop>
+                <prop key="jdbcUrl">jdbc:mysql://localhost:3306/testdb</prop>
+            </props>
+        </property>
+    </bean>
+    <!--配置独立的bean 以供多个bean进行引用 需要导入util命名空间 idea会自动导入 eclipse需要手动导入-->
+    <util:list id="cars">
+        <ref bean="car1"></ref>
+        <ref bean="car2"></ref>
+    </util:list>
+
+    <bean id="person3" class="cn.demo.bean.collection.Person">
+        <property name="name" value="Mike"/>
+        <property name="cars" ref="cars"/>
+    </bean>
+
+    <!--使用p元素为bean的属性赋值 需要先导入p命名空间   -->
+    <bean id="person4" class="cn.demo.bean.collection.Person" p:name="Dulala" p:age="22" p:cars-ref="cars">
+
+    </bean>
+</beans>
