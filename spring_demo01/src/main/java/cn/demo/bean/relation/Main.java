@@ -20,5 +20,12 @@ public class Main {
         person = (Person) ctx.getBean("person3");
         System.out.println(person);
 
+        //person = (Person) ctx.getBean("pp");//抽象bean不能被IOC容器实例化  此处报错
+        person = (Person) ctx.getBean("pp2");
+        System.out.println(person);
+
+        person = (Person) ctx.getBean("chinese");
+        System.out.println(person);
+
     }
 }

@@ -8,4 +8,13 @@
     <bean id="person2" class="cn.demo.bean.relation.Person" p:name="Dulala" p:country="China" p:provence="Shanghai"/>
     <!--bean的继承-->
     <bean id="person3" p:name="Zhugeliang" parent="person" p:provence="Xi'an"></bean>
+
+    <!--pp为抽象bean-->
+    <bean id="pp" abstract="true" class="cn.demo.bean.relation.Person"></bean>
+    <!--继承一个抽象bean-->
+    <bean id="pp2" parent="pp" class="cn.demo.bean.relation.Person" p:name="Lisi" p:country="USA"
+          p:provence="calafina"></bean>
+
+    <!--depends-on bean的依赖  在IOC容器实例化该bean之前所依赖的bean必须被实例化-->
+    <bean id="chinese" class="cn.demo.bean.relation.Person" depends-on="person" parent="person"></bean>
 </beans>
