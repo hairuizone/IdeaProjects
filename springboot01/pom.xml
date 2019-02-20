@@ -19,14 +19,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!--添加支持热部署-->
+        <!--添加支持热部署 修改后需要ctrl+F9-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
     </dependencies>
-    <!--添加maven插件-->
+    <!--添加maven插件 -->
     <build>
         <plugins>
             <plugin>
