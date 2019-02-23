@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!--导入配置文件-->
+    <context:property-placeholder location="classpath:jdbc/db.properties"></context:property-placeholder>
+    <!--配置C3P0数据源-->
+    <bean  id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${jdbc.user}" />
+        <property name="password" value="${jdbc.password}" />
+        <property name="driverClass" value="${jdbc.driverClass}" />
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}" />
+    </bean>
+
+    <!--配置Spring的JdbcTemplate-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--配置bean-->
+    <bean id="bookShopDao" class="cn.hairui.spring.transcation.xml.BookShopDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate"></property>
+    </bean>
+    <bean id="bookShopService" class="cn.hairui.spring.transcation.xml.BookShopServiceImpl">
+        <property name="bookShopDao" ref="bookShopDao"></property>
+    </bean>
+    <bean id="shopCar" class="cn.hairui.spring.transcation.xml.ShopCarImpl">
+        <property name="bookShopService" ref="bookShopService"></property>
+    </bean>
+    <!--配置事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--配置事务属性-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="buyBook" propagation="REQUIRES_NEW"/>
+            <!--设置get开头的方法表示获取  使用readonly加快读取访问-->
+            <tx:method name="get*" read-only="true"/>
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--配置事务切入点 -->
+    <aop:config >
+        <aop:pointcut expression="execution(* cn.hairui.spring.transcation.xml.*.*(..))" id="txPointCut"></aop:pointcut>
+        <aop:advisor advice-ref="txAdvice"  pointcut-ref="txPointCut"></aop:advisor>
+    </aop:config>
+</beans>

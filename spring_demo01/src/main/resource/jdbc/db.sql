@@ -17,5 +17,43 @@ CREATE TABLE
         PRIMARY KEY (DEPT_ID)
     );
 
+CREATE TABLE
+    book
+    (
+        serno VARCHAR(20) PRIMARY KEY,
+        book_name VARCHAR(100) ,
+        price INT
+    );
+
+CREATE TABLE
+    book_stock
+    (
+        serno VARCHAR(20) PRIMARY KEY,
+        stock INT
+    );
+
+CREATE TABLE
+    account
+    (
+        useraccount VARCHAR(20) PRIMARY KEY,
+        username VARCHAR(40) ,
+        balance INT
+    );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
