@@ -7,19 +7,29 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring_demo01" />
+        <module name="spring_hibernate" />
+        <module name="spring_struts2" />
         <module name="springboot01" />
         <module name="springmvc01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring_demo01" target="1.8" />
+      <module name="blog" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="lgb_user" target="1.8" />
+      <module name="spring_demo01" target="1.7" />
+      <module name="spring_hibernate" target="1.5" />
+      <module name="spring_struts2" target="1.7" />
       <module name="springboot01" target="1.8" />
       <module name="springboot02" target="1.8" />
-      <module name="springmvc01" target="1.8" />
+      <module name="springmvc01" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="lgb_user" options="-parameters" />
       <module name="springboot01" options="-parameters" />
       <module name="springboot02" options="-parameters" />
     </option>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring_struts2" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc01" />
   </component>
   <component name="MavenProjectsManager">
@@ -9,6 +10,8 @@
         <option value="$PROJECT_DIR$/spring_demo01/pom.xml" />
         <option value="$PROJECT_DIR$/springboot01/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_struts2/pom.xml" />
       </list>
     </option>
   </component>

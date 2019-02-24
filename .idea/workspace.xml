@@ -1,50 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f36cdc1-762e-43fc-a3e4-00149247a7d2" name="Default Changelist" comment="undesigner.xml">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc01_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc01_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+    <list default="true" id="8f36cdc1-762e-43fc-a3e4-00149247a7d2" name="Default Changelist" comment="初始化构建blog项目">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/artifacts/springmvc01_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/artifacts/springmvc01_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_aop_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_beans_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_context_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_core_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_expression_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_web_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/IdeaProjects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/META-INF/IdeaProjects.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/autowire.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/car.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/collection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/person.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/relation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IdeaProjects/springboot01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc01/springmvc01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc01/springmvc01.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring_demo01/target/" />
@@ -53,79 +126,103 @@
     <ignored path="$PROJECT_DIR$/springboot01/target/" />
     <ignored path="$PROJECT_DIR$/springmvc01/target/" />
     <ignored path="$PROJECT_DIR$/springboot02/target/" />
+    <ignored path="$PROJECT_DIR$/spring_hibernate/target/" />
+    <ignored path="$PROJECT_DIR$/spring_struts2/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/lgb_user/target/" />
+    <ignored path="$PROJECT_DIR$/blog/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot01/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/blog/src/main/java/cn/hairui/blog/AmazeUI/AmazeUITemplatesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="16" column="5" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/src/main/java/cn/hairui/blog/BlogApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+              <caret line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/JavaConfigA.java">
+        <entry file="file://$PROJECT_DIR$/blog/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/JavaConfigB.java">
+        <entry file="file://$PROJECT_DIR$/blog/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="14" selection-start-column="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/ParentConfig.java">
+        <entry file="file://$PROJECT_DIR$/blog/src/main/resources/templates/widget.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/ContextLoaderMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="345">
+              <caret line="392" selection-start-line="392" selection-end-line="392" />
             </state>
           </provider>
         </entry>
@@ -134,20 +231,7 @@
         <entry file="file://$PROJECT_DIR$/springboot01/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/springboot/SpringBootMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-              </folding>
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -157,8 +241,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="hibernate-configuration-5.0" />
+        <option value="hibernate-main-5.0" />
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -168,6 +256,11 @@
       <find>`</find>
       <find>http</find>
       <find>aspe</find>
+      <find>annotation-driven</find>
+      <find>setDataSource2</find>
+      <find>landing</find>
+      <find>grid</find>
+      <find>html</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -182,41 +275,63 @@
       </map>
     </option>
   </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_demo01/spring_demo01.iml" />
-        <option value="$PROJECT_DIR$/spring_demo01/target/classes/autowire.xml" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/resource/annotations.xml" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/bean/annotations/Main.java" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/bean/annotations/TestAnnotations.java" />
-        <option value="$PROJECT_DIR$/cmms/pom.xml" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/dynamic/proxy/Subject.java" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/dynamic/proxy/RealSubject.java" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/dynamic/proxy/ProxyHandler.java" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/dynamic/proxy/DynamicProxy.java" />
-        <option value="$PROJECT_DIR$/spring_demo01/pom.xml" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/CalculatorInterface.java" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/CalculatorImpl.java" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/Main.java" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/LoggingAspect.java" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/resource/beans-aop.xml" />
-        <option value="$PROJECT_DIR$/spring_demo01/src/main/resource/beans-aop-xml.xml" />
-        <option value="$PROJECT_DIR$/springboot_demo01/pom.xml" />
-        <option value="$PROJECT_DIR$/springmvc01/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/springboot/SpringBootMain.java" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/springboot/Car.java" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/Car.java" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/Audi.java" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/Benz.java" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/JavaConfigA.java" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/ParentConfig.java" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/JavaConfigB.java" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/ContextLoaderMain.java" />
-        <option value="$PROJECT_DIR$/springboot01/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/springboot/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/springboot01/src/main/resources/applicatoin.properties" />
         <option value="$PROJECT_DIR$/springboot01/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/jdbc/JDBCTest.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/Main.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/resource/jdbc/db.sql" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/BookShopDao.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/exception/BookDaoException.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/exception/AccountException.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/BookShopDaoImpl.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/BookShopService.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/ShopCarImpl.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/ShopCar.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/BookShopTest.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/resource/jdbc/appliacationContext.xml" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/BookShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/xml/BookShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/xml/ShopCarImpl.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/xml/BookShopTest.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/xml/BookShopDaoImpl.java" />
+        <option value="$PROJECT_DIR$/spring_demo01/src/main/resource/jdbc/appliacationContext-xml.xml" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/resources/hibernate.cfg.xml.fxml" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/beans.java" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/resources/mapper/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/resources/note.txt" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/dao/impl.java" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/dao/impl/impl.java" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/cn/hairui/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/test/java/SpringHibernateTest.java" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/beans/User.java" />
+        <option value="$PROJECT_DIR$/spring_struts2/src/main/java/cn/hairui/bean/Person.java" />
+        <option value="$PROJECT_DIR$/spring_struts2/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/spring_struts2/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/spring_hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_struts2/pom.xml" />
+        <option value="$PROJECT_DIR$/lgb_user/pom.xml" />
+        <option value="$PROJECT_DIR$/lgb_user/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/blog/src/main/java/com/hairui/blog/SpringBootApplication.java" />
+        <option value="$PROJECT_DIR$/blog/src/main/java/com/hairui/blog/BlogApplication.java" />
+        <option value="$PROJECT_DIR$/blog/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/blog/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/blog/pom.xml" />
+        <option value="$PROJECT_DIR$/blog/src/main/java/cn/hairui/blog/AmazeUI/templates/controller/MyController.java" />
+        <option value="$PROJECT_DIR$/blog/src/main/java/cn/hairui/blog/controller/MyController.java" />
+        <option value="$PROJECT_DIR$/blog/src/main/java/cn/hairui/blog/AmazeUI/MyController.java" />
+        <option value="$PROJECT_DIR$/blog/src/main/java/cn/hairui/blog/AmazeUI/AmazeUITemplatesController.java" />
+        <option value="$PROJECT_DIR$/blog/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
@@ -240,21 +355,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springmvc01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring_struts2 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -281,7 +382,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,126 +392,56 @@
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_demo01" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_demo01" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="relation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_demo01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot01" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot01" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot01" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot01" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc01" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -422,12 +452,45 @@
           <expand>
             <path>
               <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
-              <item name="springboot01" type="616d4139:PackageViewModuleNode" />
+              <item name="blog" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
               <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
-              <item name="springboot01" type="616d4139:PackageViewModuleNode" />
-              <item name="cn.hairui.spring.springboot" type="1f31426a:PackageElementNode" />
+              <item name="blog" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.hairui.blog" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="58d84e3e:PackageViewProjectNode" />
+              <item name="spring_hibernate" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring_hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring_hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring_hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="IdeaProjects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring_hibernate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -437,6 +500,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -445,21 +509,30 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550649784797" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551023754549" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/dao" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.side.proportion" value="0.33672318" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\01_Work\IdeaProjects\spring_demo01\src\main\java\cn\demo\aop\impl" />
+      <recent name="D:\01_Work\IdeaProjects\blog\src\main\resources\templates" />
+      <recent name="D:\01_Work\IdeaProjects\blog\src\main\resources\static" />
+      <recent name="D:\01_Work\IdeaProjects\spring_hibernate\src\main\resources" />
+      <recent name="D:\01_Work\IdeaProjects\spring_demo01\src\main\resource\jdbc" />
+      <recent name="D:\01_Work\IdeaProjects\spring_demo01\src\main\java\cn\hairui\spring\transcation\xml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -474,70 +547,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootMain">
-    <configuration name="ContextLoaderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.hairui.spring.annotation.ContextLoaderMain" />
-      <module name="springboot01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.hairui.spring.annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Spring Boot.BlogApplication (1)">
+    <configuration name="SpringHibernateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_hibernate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringHibernateTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.demo.aop.impl.xml.Main" />
-      <module name="spring_demo01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.demo.aop.impl.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.demo.bean.autowire.Main" />
-      <module name="spring_demo01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.demo.bean.autowire.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBootMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.hairui.spring.springboot.SpringBootMain" />
-      <module name="IdeaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.hairui.spring.springboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCTest.testJdbcTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_demo01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.hairui.spring.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.hairui.spring.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="cn.hairui.spring.jdbc.JDBCTest" />
-      <option name="METHOD_NAME" value="testJdbcTemplate" />
+    <configuration name="SpringHibernateTest.testUserDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_hibernate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringHibernateTest" />
+      <option name="METHOD_NAME" value="testUserDao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -590,6 +614,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BlogApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.hairui.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hairui.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LgbUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lgb_user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.lgb.blog.LgbUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.hairui.spring.springboot.SpringBootMain" />
@@ -597,20 +649,114 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Springboot02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot02" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.hairui.spring.springboot.Springboot02Application" />
+    <configuration default="true" type="TomeeConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59210" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 7.0.471" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="spring_struts2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="2a5b652c-f30d-4b23-baa6-bd1b4eab54aa" />
+                    <id>2a5b652c-f30d-4b23-baa6-bd1b4eab54aa</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="2a5b652c-f30d-4b23-baa6-bd1b4eab54aa" />
+                    <id>2a5b652c-f30d-4b23-baa6-bd1b4eab54aa</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="1259e345-aedf-48ec-b5ec-e606b7d50692" />
+                    <id>1259e345-aedf-48ec-b5ec-e606b7d50692</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="1259e345-aedf-48ec-b5ec-e606b7d50692" />
+                    <id>1259e345-aedf-48ec-b5ec-e606b7d50692</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59224" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringHibernateTest" />
+      <item itemvalue="JUnit.SpringHibernateTest.testUserDao" />
+      <item itemvalue="Spring Boot.SpringBootMain" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.LgbUserApplication" />
+      <item itemvalue="Spring Boot.BlogApplication" />
+      <item itemvalue="Spring Boot.BlogApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContextLoaderMain" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.SpringBootMain" />
-        <item itemvalue="JUnit.JDBCTest.testJdbcTemplate" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="JUnit.SpringHibernateTest.testUserDao" />
+        <item itemvalue="JUnit.SpringHibernateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -637,6 +783,14 @@
       <workItem from="1550544022591" duration="2993000" />
       <workItem from="1550547219567" duration="9409000" />
       <workItem from="1550649214533" duration="428000" />
+      <workItem from="1550673366739" duration="1444000" />
+      <workItem from="1550846663784" duration="3427000" />
+      <workItem from="1550852818294" duration="610000" />
+      <workItem from="1550923310997" duration="13041000" />
+      <workItem from="1550978111893" duration="12944000" />
+      <workItem from="1550992724201" duration="4996000" />
+      <workItem from="1551011536940" duration="7572000" />
+      <workItem from="1551021435872" duration="1617000" />
     </task>
     <task id="LOCAL-00001" summary="test git2018年12月2日 14:09:16">
       <created>1543730971663</created>
@@ -715,16 +869,92 @@
       <option name="project" value="LOCAL" />
       <updated>1550649489580</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2019年2月20日 22:50:23">
+      <created>1550674240839</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550674240839</updated>
+    </task>
+    <task id="LOCAL-00013" summary="delete error files">
+      <created>1550674729512</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1550674729512</updated>
+    </task>
+    <task id="LOCAL-00014" summary="spring transcation">
+      <created>1550930344522</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1550930344522</updated>
+    </task>
+    <task id="LOCAL-00015" summary="初始化构建blog项目">
+      <created>1551019340006</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1551019340006</updated>
+    </task>
+    <task id="LOCAL-00016" summary="初始化构建blog项目">
+      <created>1551019429382</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551019429382</updated>
+    </task>
+    <task id="LOCAL-00017" summary="初始化构建blog项目">
+      <created>1551019782862</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1551019782862</updated>
+    </task>
+    <task id="LOCAL-00018" summary="初始化构建blog项目">
+      <created>1551022398620</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1551022398620</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JDBCTest_testJdbcTemplate - 2019.02.19 at 10h 43m 40s.xml">
-      <configuration name="JDBCTest.testJdbcTemplate" configurationId="JUnit" />
+    <history-entry file="SpringHibernateTest_testUserDao - 2019.02.24 at 13h 45m 24s.xml">
+      <configuration name="SpringHibernateTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringHibernateTest_testUserDao - 2019.02.24 at 14h 02m 42s.xml">
+      <configuration name="SpringHibernateTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringHibernateTest_testUserDao - 2019.02.24 at 14h 03m 45s.xml">
+      <configuration name="SpringHibernateTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringHibernateTest_testUserDao - 2019.02.24 at 14h 04m 24s.xml">
+      <configuration name="SpringHibernateTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringHibernateTest_testUserDao - 2019.02.24 at 14h 04m 52s.xml">
+      <configuration name="SpringHibernateTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringHibernateTest_testUserDao - 2019.02.24 at 14h 07m 00s.xml">
+      <configuration name="SpringHibernateTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringHibernateTest_testUserDao - 2019.02.24 at 14h 07m 22s.xml">
+      <configuration name="SpringHibernateTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringHibernateTest_testUserDao - 2019.02.24 at 14h 08m 23s.xml">
+      <configuration name="SpringHibernateTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringHibernateTest_testUserDao - 2019.02.24 at 14h 09m 58s.xml">
+      <configuration name="SpringHibernateTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringHibernateTest_testUserDao - 2019.02.24 at 14h 10m 35s.xml">
+      <configuration name="SpringHibernateTest.testUserDao" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37999000" />
+    <option name="totallyTimeSpent" value="83650000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,35 +966,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2987897" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48638427" weight="0.4442623" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3295082" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.3295082" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5136157" side_tool="true" visible="true" weight="0.4442623" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.5461422" weight="0.39508197" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49016643" weight="0.3262295" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info id="Persistence" order="0" sideWeight="0.50097466" side_tool="true" weight="0.31503198" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49902534" visible="true" weight="0.32569295" />
+      <window_info id="Structure" order="2" sideWeight="0.50097466" side_tool="true" weight="0.31503198" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" sideWeight="0.4989339" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49840087" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.45362473" visible="true" weight="0.44360086" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4989339" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4978678" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5463753" side_tool="true" visible="true" weight="0.44360086" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.51759064" weight="0.39479393" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49016643" weight="0.3262295" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Application Servers" order="16" sideWeight="0.4978678" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.25718608" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.25692964" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -799,356 +1032,346 @@
     <MESSAGE value="2019年2月19日 17:40:28" />
     <MESSAGE value="2019年2月19日 17:40:50" />
     <MESSAGE value="undesigner.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="undesigner.xml" />
+    <MESSAGE value="2019年2月20日 22:50:23" />
+    <MESSAGE value="delete error files" />
+    <MESSAGE value="spring transcation" />
+    <MESSAGE value="初始化构建blog项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化构建blog项目" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spring_hibernate/src/test/java/SpringHibernateTest.java</url>
+          <line>35</line>
+          <properties class="SpringHibernateTest" method="testGetAllUser">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/resource/factory.xml" />
-    <entry file="file://D:/Program Files/apache-maven-3.6.0/conf/settings.xml">
+    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/BookShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="162" column="53" lean-forward="true" selection-start-line="162" selection-start-column="53" selection-end-line="162" selection-end-column="53" />
+        <state relative-caret-position="646">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmms/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/bean/annotations/TestAnnotations.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/bean/annotations/Main.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/resource/annotations.xml" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/bean/annotation/Main.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/bean/generic/di/Main.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/dynamic/proxy/Subject.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/CalculatorImpl.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.8.RELEASE/spring-aop-4.3.8.RELEASE.jar!/org/springframework/aop/config/spring-aop-4.3.xsd">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.1.7.Final/hibernate-core-5.1.7.Final-sources.jar!/org/hibernate/SharedSessionContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
+        <state relative-caret-position="161">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/LoggingAspect.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/CalculatorInterface.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/dynamic/proxy/RealSubject.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/dynamic/proxy/ProxyHandler.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/dynamic/proxy/DynamicProxy.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/resource/beans-aop.xml" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/XMLSchema-instance.xsd">
+    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/BookShopDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/transcation/BookShopServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/jdbc/DeptDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_hibernate/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_hibernate/src/main/resources/mapper/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_hibernate/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_hibernate/src/main/resources/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-aspects/4.1.1.RELEASE/spring-aspects-4.1.1.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-end-line="52" />
+        <state relative-caret-position="375">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/resource/beans-aop-xml.xml" />
-    <entry file="uml://MAVEN/cn.demo.spring:spring_demo01:1.0">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>cn.demo.spring:spring_demo01:1.0</OriginalElement>
-          <nodes>
-            <node x="182.72222222222223" y="425.0">cn.demo.spring:spring_demo01:1.0</node>
-            <node x="531.7993827160494" y="324.0">junit:junit:jar:4.11</node>
-            <node x="501.7993827160494" y="243.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="250.29938271604937" y="81.0">org.springframework:spring-core:jar:4.3.8.RELEASE</node>
-            <node x="247.79938271604937" y="324.0">org.springframework:spring-context:jar:4.3.8.RELEASE</node>
-            <node x="312.75" y="162.0">org.springframework:spring-beans:jar:4.3.8.RELEASE</node>
-            <node x="146.29938271604937" y="0.0">commons-logging:commons-logging:jar:1.2</node>
-            <node x="384.79938271604937" y="243.0">org.springframework:spring-aop:jar:4.3.8.RELEASE</node>
-            <node x="0.0" y="324.0">org.springframework:spring-aspects:jar:4.1.1.RELEASE</node>
-            <node x="2.0" y="243.0">org.springframework:spring-aspects:jar:4.1.1.RELEASE/org.aspectj:aspectjweaver:jar:1.8.2</node>
-            <node x="152.79938271604937" y="243.0">org.springframework:spring-expression:jar:4.3.8.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework:spring-core:jar:4.3.8.RELEASE" target="commons-logging:commons-logging:jar:1.2">
-              <point x="0.0" y="-15.5" />
-              <point x="300.29938271604937" y="56.0" />
-              <point x="250.54938271604937" y="56.0" />
-              <point x="34.75" y="15.5" />
-            </edge>
-            <edge source="cn.demo.spring:spring_demo01:1.0" target="junit:junit:jar:4.11">
-              <point x="53.375" y="-15.5" />
-              <point x="297.09722222222223" y="405.0" />
-              <point x="559.7993827160494" y="405.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.3.8.RELEASE" target="org.springframework:spring-expression:jar:4.3.8.RELEASE">
-              <point x="-43.5" y="-15.5" />
-              <point x="262.29938271604937" y="299.0" />
-              <point x="255.54938271604937" y="299.0" />
-              <point x="34.25" y="15.5" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.3.8.RELEASE" target="org.springframework:spring-aop:jar:4.3.8.RELEASE">
-              <point x="43.5" y="-15.5" />
-              <point x="349.29938271604937" y="299.0" />
-              <point x="409.04938271604937" y="299.0" />
-              <point x="-24.25" y="15.5" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.3.8.RELEASE" target="org.springframework:spring-beans:jar:4.3.8.RELEASE">
-              <point x="14.5" y="-15.5" />
-              <point x="320.29938271604937" y="299.0" />
-              <point x="311.29938271604937" y="299.0" />
-              <point x="311.29938271604937" y="218.0" />
-              <point x="330.9166666666667" y="218.0" />
-              <point x="-36.333333333333314" y="15.5" />
-            </edge>
-            <edge source="org.springframework:spring-aop:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
-              <point x="24.25" y="-15.5" />
-              <point x="457.54938271604937" y="132.0" />
-              <point x="340.29938271604937" y="132.0" />
-              <point x="40.0" y="15.5" />
-            </edge>
-            <edge source="cn.demo.spring:spring_demo01:1.0" target="commons-logging:commons-logging:jar:1.2">
-              <point x="-38.125" y="-15.5" />
-              <point x="205.59722222222223" y="395.0" />
-              <point x="128.5" y="395.0" />
-              <point x="128.5" y="56.0" />
-              <point x="181.04938271604937" y="56.0" />
-              <point x="-34.75" y="15.5" />
-            </edge>
-            <edge source="org.springframework:spring-aspects:jar:4.1.1.RELEASE" target="org.springframework:spring-aspects:jar:4.1.1.RELEASE/org.aspectj:aspectjweaver:jar:1.8.2">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="org.springframework:spring-aop:jar:4.3.8.RELEASE" target="org.springframework:spring-beans:jar:4.3.8.RELEASE">
-              <point x="-24.25" y="-15.5" />
-              <point x="409.04938271604937" y="218.0" />
-              <point x="403.58333333333337" y="218.0" />
-              <point x="36.33333333333337" y="15.5" />
-            </edge>
-            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="cn.demo.spring:spring_demo01:1.0" target="org.springframework:spring-aspects:jar:4.1.1.RELEASE">
-              <point x="-53.375" y="-15.5" />
-              <point x="190.34722222222223" y="405.0" />
-              <point x="59.0" y="405.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
-              <point x="-14.5" y="-15.5" />
-              <point x="291.29938271604937" y="299.0" />
-              <point x="300.29938271604937" y="299.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="cn.demo.spring:spring_demo01:1.0" target="org.springframework:spring-beans:jar:4.3.8.RELEASE">
-              <point x="22.875" y="-15.5" />
-              <point x="266.59722222222223" y="385.0" />
-              <point x="374.29938271604937" y="385.0" />
-              <point x="374.29938271604937" y="218.0" />
-              <point x="367.25" y="218.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="cn.demo.spring:spring_demo01:1.0" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
-              <point x="-22.875" y="-15.5" />
-              <point x="220.84722222222223" y="385.0" />
-              <point x="142.29938271604937" y="385.0" />
-              <point x="142.29938271604937" y="132.0" />
-              <point x="260.29938271604937" y="132.0" />
-              <point x="-40.0" y="15.5" />
-            </edge>
-            <edge source="cn.demo.spring:spring_demo01:1.0" target="org.springframework:spring-context:jar:4.3.8.RELEASE">
-              <point x="7.625" y="-15.5" />
-              <point x="251.34722222222223" y="375.0" />
-              <point x="305.79938271604937" y="375.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="org.springframework:spring-expression:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
-              <point x="-2.8421709430404007E-14" y="-15.5" />
-              <point x="221.29938271604937" y="142.0" />
-              <point x="280.29938271604937" y="142.0" />
-              <point x="-20.0" y="15.5" />
-            </edge>
-            <edge source="cn.demo.spring:spring_demo01:1.0" target="org.springframework:spring-aop:jar:4.3.8.RELEASE">
-              <point x="38.125" y="-15.5" />
-              <point x="281.84722222222223" y="395.0" />
-              <point x="457.54938271604937" y="395.0" />
-              <point x="24.25" y="15.5" />
-            </edge>
-            <edge source="cn.demo.spring:spring_demo01:1.0" target="org.springframework:spring-expression:jar:4.3.8.RELEASE">
-              <point x="-7.625" y="-15.5" />
-              <point x="236.09722222222223" y="375.0" />
-              <point x="187.04938271604937" y="375.0" />
-              <point x="-34.25" y="15.5" />
-            </edge>
-            <edge source="org.springframework:spring-beans:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
-              <point x="0.0" y="-15.5" />
-              <point x="367.25" y="142.0" />
-              <point x="320.29938271604937" y="142.0" />
-              <point x="20.0" y="15.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7523510971786834" x="309.0" y="228.0" />
-          <SelectedNodes>
-            <node>cn.demo.spring:spring_demo01:1.0</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
+    <entry file="file://$PROJECT_DIR$/spring_hibernate/src/main/java/cn/hairui/beans/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/xml/CalculatorImpl.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/xml/ValidationAspect.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/Main.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/dynamic/proxy/example/Main.java" />
-    <entry file="file://$PROJECT_DIR$/springboot_demo01/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/aop/impl/xml/Main.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/hairui/spring/jdbc/JDBCTest.java" />
-    <entry file="file://$PROJECT_DIR$/spring_demo01/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring_hibernate/src/test/java/SpringHibernateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="321">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_demo01/src/main/java/cn/demo/bean/autowire/Main.java">
+    <entry file="file://$PROJECT_DIR$/spring_struts2/src/main/java/cn/hairui/bean/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts2/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/web/WEB-INF/dispatcher-servlet.xml" />
+    <entry file="file://$PROJECT_DIR$/demo/web/WEB-INF/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" />
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/spring_hibernate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" column="10" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springmvc01/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="816">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cn/hairui/spring/annotation/Car.java" />
-    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/Audi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/Benz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot02/mvnw" />
-    <entry file="file://$PROJECT_DIR$/springboot02/mvnw.cmd" />
-    <entry file="file://$PROJECT_DIR$/springboot02/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/springboot02/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/springboot/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/JavaConfigA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/JavaConfigB.java">
+    <entry file="file://$PROJECT_DIR$/lgb_user/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/lgb_user/src/main/java/cn/lgb/blog/LgbUserApplication.java" />
+    <entry file="file://$PROJECT_DIR$/lgb_user/src/test/java/cn/lgb/blog/LgbUserApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/lgb_user/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/lgb_user/src/main/resources/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/lgb_user/mvnw.cmd" />
+    <entry file="file://$PROJECT_DIR$/lgb_user/mvnw" />
+    <entry file="file://$PROJECT_DIR$/lgb_user/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/lgb_user/.mvn/wrapper/maven-wrapper.properties" />
+    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/springboot/SpringBootMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/ParentConfig.java">
+    <entry file="file://$PROJECT_DIR$/blog/src/main/java/com/hairui/blog/BlogApplication.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap/4.3.1/bootstrap-4.3.1.jar!/META-INF/maven/org.webjars/bootstrap/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/webjars/bootstrap/4.3.1/bootstrap-4.3.1.jar!/META-INF/maven/org.webjars/bootstrap/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/annotation/ContextLoaderMain.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_struts2/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/main/resources/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/main/resources/templates/admin-404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/main/resources/templates/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/springboot/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot01/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot01/src/main/java/cn/hairui/spring/springboot/SpringBootMain.java">
+    <entry file="file://$PROJECT_DIR$/blog/src/main/resources/templates/widget.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="392" selection-start-line="392" selection-end-line="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/main/java/cn/hairui/blog/AmazeUI/AmazeUITemplatesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" column="5" selection-end-line="44" />
           <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot01/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/blog/src/main/java/cn/hairui/blog/BlogApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/blog/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/blog/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/blog/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
+      <state key="ArquillianSettingsConfigurable.UI">
         <settings>
-          <artifact-editor />
-          <last-edited>springmvc01:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.33672318" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring_struts2:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33672318" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1157,11 +1380,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Hibernate (spring_hibernate)|Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.33672318" />
               </list>
             </option>
           </splitter-proportions>
@@ -1192,11 +1415,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springmvc01</last-edited>
+          <last-edited>spring_struts2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.33672318" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1209,7 +1432,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.33672318" />
               </list>
             </option>
           </splitter-proportions>

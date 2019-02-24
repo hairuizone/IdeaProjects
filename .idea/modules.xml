@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IdeaProjects.iml" filepath="$PROJECT_DIR$/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate01.iml" filepath="$PROJECT_DIR$/hibernate01.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_demo01/spring_demo01.iml" filepath="$PROJECT_DIR$/spring_demo01/spring_demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_hibernate/spring_hibernate.iml" filepath="$PROJECT_DIR$/spring_hibernate/spring_hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_struts2/spring_struts2.iml" filepath="$PROJECT_DIR$/spring_struts2/spring_struts2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot01/springboot01.iml" filepath="$PROJECT_DIR$/springboot01/springboot01.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc01/springmvc01.iml" filepath="$PROJECT_DIR$/springmvc01/springmvc01.iml" />
     </modules>
